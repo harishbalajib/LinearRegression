@@ -39,16 +39,9 @@ This will start a local server. Open a browser and navigate to `http://127.0.0.1
 
 ## Usage
 1. **Web Interface**: The main page allows you to input data for predictions. Enter the data in the form fields and submit to get predictions from the Ridge regression model.
-2. **API Endpoint**: You can also send a POST request to the `/predict` endpoint with JSON data to receive predictions.
+2. **API Endpoint**: You can also send a POST request to the `/PredictData` endpoint with JSON data to receive predictions.
 
-## Example API Request
-Send a JSON payload to `http://127.0.0.1:5000/predict` in the following format:
-```json
-{
-  "feature1": value1,
-  "feature2": value2
-}
-```
+
 
 ## Contributing
 Feel free to open issues or submit pull requests with improvements or new features.
